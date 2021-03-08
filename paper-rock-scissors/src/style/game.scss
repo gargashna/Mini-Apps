@@ -1,0 +1,35 @@
+@import './header.scss';
+
+
+.gameArea{
+    display: flex;
+        flex-direction: row;
+        align-items: center;
+        justify-content: space-around;
+    .rock{
+        background-color: orange;
+    }
+    .paper{
+        background-color: lightseagreen;
+    }
+    .scissors{
+        background-color: plum;
+    }
+}
+
+.you{
+
+    margin-left: 80px;
+    margin-top: 10px;
+   display: flex;
+   flex-direction: column;
+   align-content: flex-start;
+    
+}
+
+.button1{
+    border-radius: 100px;
+    width: 80px;
+    height: 80px;
+    margin: 10px;
+}

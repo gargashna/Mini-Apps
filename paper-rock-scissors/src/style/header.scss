@@ -1,0 +1,73 @@
+
+
+
+@mixin flexRule {
+    display: flex;
+    flex-direction: row;
+    justify-content: center ;
+    
+}
+$green: #008000;
+
+.info{
+
+    @include flexRule();
+    width: 100vw;
+    height: 20vh;
+    top: 0;
+    padding: 20px;
+    align-items: center;
+    
+    .status{
+        @include flexRule();
+        margin: 20px;
+
+
+        .wins{
+            align-items: center;
+            margin: 20px;
+            
+        }
+        .loss{
+            align-items: center;
+          margin: 20px;
+          .number{
+              color: red;
+          }
+
+        }
+        
+        .number{
+            font-size: 50px;
+            color: $green;
+            padding: 5px;
+            
+        }
+
+        .text{
+            padding-bottom: 5px;
+            
+        }
+
+    }
+
+    
+ 
+
+}
+
+//   //  <div className="header">
+//   <h2>Rock, Paper, Scissors</h2>
+//   <div className="status">
+//     <span>{wins}<h2> Wins</h2></span>
+//     <h1> {loss}</h1>  <h2>Loss</h2>
+//   </div>
+  
+
+  /*Variables
+Nesting
+Math
+Mixins
+Functions
+Imports
+And More*/

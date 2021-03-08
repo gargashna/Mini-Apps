@@ -1,0 +1,19 @@
+.App {
+  text-align: center;
+  background-color: cadetblue;
+}
+
+.App-logo {
+  height: 40vmin;
+  pointer-events: none;
+}
+
+.correct {
+  color: green;
+  background-color: burlywood;
+}
+
+.incorrect {
+  color: red;
+  background-color: burlywood;
+}
